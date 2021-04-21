@@ -325,7 +325,7 @@ class KochavaTracker {
   }
 
   /// Process an enhanced deeplink using the specified override timeout in seconds.
-  void processDeeplinkWithOverrideTimeout(String path, double timeout,
+  void processDeeplinkWithOverrideTimeout(String? path, double? timeout,
       KochavaTrackerDeeplinkCallback? deeplinkCallback) {
     try {
       if (deeplinkCallback == null) {
